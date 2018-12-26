@@ -8,6 +8,8 @@ import org.apache.kafka.streams.processor.TopologyBuilder;
 
 import java.util.Properties;
 
+//发送端（linux命令行建立生产者） ---》处理（主要通过TopologyBuilder,建立处理链） ---》消费端（linux命令行建立消费者）
+
 public class KafkaStreamDemo {
     public static void main(String[] args) {
         //1、配置信息
